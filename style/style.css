@@ -1,0 +1,212 @@
+.logo {grid-area: logo;}
+.contact {grid-area: contact;}
+.email {grid-area: email;}
+.number {grid-area: number;}
+.emailcontact {grid-area: emailcontact;}
+.user {grid-area: user;}
+.nav {grid-area: nav;}
+.nav2 {grid-area: nav2;}
+
+body{
+    display: inline-block;
+    margin: 0;
+    overflow: hidden;
+    font-family: Helvetica;
+}
+
+header {
+    display: grid;
+    grid-template-areas: 
+        'logo contact email user'
+        'logo number emailcontact user'
+        'nav nav2 nav2 nav2';
+    gap: 1px;
+    text-align: center;
+    overflow: hidden;
+    width: 100vw;
+    background-color: white;
+    padding-top: 10px;
+    top: 0;
+}
+
+#logo-color {
+    background-color: #98d640;
+    color: white;
+    border-radius: 3px;
+    padding: 3px;
+}
+
+.contact {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.email {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.fa-phone {
+    color: #98d640;
+}
+
+.fa-envelope {
+    color: #98d640;
+}
+
+.number {
+    font-weight: bold;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.emailcontact {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#user {
+    margin-top: 25px;
+    background-color: #98d640;
+    margin-right: 50px;
+    padding: 15px;
+    width: 60%;
+    margin-left: 130px;
+    text-align: left;
+    font-size: 18px;
+    border-radius: 5px;
+    font-weight: bold;
+    color:white;
+}
+
+.fa-user {
+    color: white;
+    float: right;
+}
+
+.wrapper {
+    background-image: url("../pictures/2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+#hero {
+    background-color: rgba(0, 0, 0, 0.267);
+    float: left;
+    margin-left: 15px;
+    margin-top: 10%;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+#hero1 {
+    font-size: 35px;
+    border-left: 2px solid #98d640;
+    background-color: white;
+    display: inline;
+    padding: 3px;
+    border-radius: 0 5px 5px 0;
+    font-weight: bold;
+}
+
+#hero2 {
+    font-size: 55px;
+    margin-top: 10px;
+    font-weight: bolder;
+    color: white;
+}
+
+#sveze {
+    color: #98d640;
+}
+
+#hero3 {
+    font-size: 25px;
+    margin-top: 20px;
+    color: white;
+}
+
+#hero4 {
+    font-size: 25px;
+    color: white;
+}
+
+.button-1 {
+    margin-top: 10px;
+    font-size: 35px;
+    background-color: #98d640;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 15px;
+    font-weight: bolder;
+}
+
+nav {
+    padding: 10px;
+}
+
+.nav {
+    border-bottom: 10px solid #98d640;
+}
+
+.fa-share-alt {
+    color:#98d640;
+}
+
+.nav ul li {
+    padding: 0 10px;
+    font-size: 20px;
+}
+
+.nav2{
+    background-color: #98d640;
+    transform: skew(-45deg);
+    margin-right: -35px;
+    color: white;
+    font-weight: bold;
+}
+
+.nav2 ul {
+    display: block;
+    transform: skew(45deg);
+}
+
+.nav2 ul li {
+    display: inline;
+    list-style-type: none;
+    padding: 0 5px;
+}
+
+.nav ul li {
+    list-style-type: none;
+    display: inline;
+}
+
+footer {
+    text-align: center;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    background-image: url("../pictures/5.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 25%;
+    overflow: hidden;
+}
+
+/* .job
+
+.grid-job {
+    background-color: #98d640;
+    height: 100%;
+    transform: skew(45deg);
+}
+
+.grid-job>div {
+    transform: skew(-45deg);
+} */
